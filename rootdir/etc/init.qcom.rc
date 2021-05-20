@@ -172,6 +172,10 @@ on boot
     mkdir /dev/socket/qmux_radio 0770 radio radio
     chmod 2770 /dev/socket/qmux_radio
 
+    # Smart Charging
+    chown system system /sys/class/qcom-battery/input_suspend
+    chmod 0666 /sys/class/qcom-battery/input_suspend
+
     mkdir /persist/drm 0770 system system
     mkdir /persist/bluetooth 0770 bluetooth bluetooth
     mkdir /persist/misc 0770 system system

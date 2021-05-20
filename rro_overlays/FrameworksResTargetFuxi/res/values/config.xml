@@ -472,4 +472,9 @@
          Otherwise, the device may fail to wake out of suspend reliably.
          The default is false. -->
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
+
+     <!-- Charge sysfs node and value for Adaptive charging -->
+    <string name="config_adaptiveChargingSysfsNode" translatable="false">/sys/class/qcom-battery/input_suspend</string>
+    <string name="config_adaptiveChargingSuspendValue" translatable="false">1</string>
+    <string name="config_adaptiveChargingResumeValue" translatable="false">0</string>
 </resources>
