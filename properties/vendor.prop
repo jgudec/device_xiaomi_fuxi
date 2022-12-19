@@ -186,6 +186,9 @@ camera.disable_zsl_mode=true
 ro.camera.enableCamera1MaxZsl=1
 ro.hardware.camera=xiaomi
 
+# Cached app compaction
+persist.device_config.activity_manager.use_compaction=true
+
 # Display
 vendor.display.comp_mask=0
 vendor.display.disable_3d_adaptive_tm=0
