@@ -345,6 +345,9 @@ sys.haptic.device_type=agm
 # Incremental
 ro.incremental.enable=yes
 
+# HWUI
+ro.hwui.render_ahead=10
+
 # LMK
 persist.sys.miui.camera.boost.killAdj_threshold=251:200:100:50
 persist.sys.lmkd.extend_reclaim.enable=false
