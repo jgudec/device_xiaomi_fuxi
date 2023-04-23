@@ -52,3 +52,6 @@ ro.hardware.wlan.chip=kiwi_v2
 ro.hardware.wlan.dbs=2
 ro.hardware.wlan.mimo=1
 ro.hardware.wlan.vendor=qcom
+
+# Feature flags
+persist.sys.fflag.override.settings_enable_monitor_phantom_procs=false
