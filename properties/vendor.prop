@@ -243,6 +243,7 @@ persist.vendor.dpm.vndr.idletimer.mode=default
 persist.vendor.dpm.vndr.halservice.enable=1
 persist.vendor.dpm.vndr.feature=11
 
+
 # DRM
 drm.service.enabled=true
 
@@ -287,6 +288,7 @@ debug.sf.treat_170m_as_sRGB=1
 persist.sys.sf.color_mode=0
 persist.sys.sf.color_saturation=1.0
 ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.kalama.api33
+
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 ro.opengles.version=196610
@@ -305,7 +307,10 @@ ro.surface_flinger.set_idle_timer_ms=80
 ro.surface_flinger.wcg_composition_dataspace=143261696
 ro.vendor.all_modes.colorpick_adjust=true
 vendor.gralloc.disable_ubwc=0
-ro.sf.skip_set_active_mode_when_off=1
+debug.sf.layer_caching_active_layer_timeout_ms=1000
+ro.config.avoid_gfx_accel=true
+debug.sdm.support_writeback=0
+debug.sf.enable_egl_image_tracker=0
 
 # Suspend properties
 suspend.short_suspend_threshold_millis=2000
