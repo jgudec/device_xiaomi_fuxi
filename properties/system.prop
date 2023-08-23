@@ -61,3 +61,4 @@ persist.sys.fflag.override.settings_enable_monitor_phantom_procs=false
 
 # LMK properties
 ro.lmk.kill_heaviest_task=true
+ro.lmk.kill_timeout_ms=50
