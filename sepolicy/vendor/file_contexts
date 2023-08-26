@@ -6,3 +6,6 @@
 
 # Thermal
 /vendor/bin/mi_thermald                              u:object_r:mi_thermald_exec:s0
+
+# Dolby
+/vendor/bin/hw/dolbycodec2			     u:object_r:mediacodec_exec:s0
