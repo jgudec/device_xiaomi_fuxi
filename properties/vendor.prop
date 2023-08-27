@@ -460,4 +460,6 @@ MultitouchSettleInterval=1ms
 MultitouchMinDistance=1px
 TapInterval=1ms
 TapSlop=1px
->>>>>>> 150ee9c... fuxi: add touch hax tweak
+
+# Zygote
+zygote.critical_window.minute=10
