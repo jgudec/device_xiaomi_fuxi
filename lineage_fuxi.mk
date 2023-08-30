@@ -34,3 +34,6 @@ BUILD_FINGERPRINT := Xiaomi/fuxi_global/fuxi:13/TKQ1.220905.001/V14.0.7.0.TMCMIX
 
 # GMS
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+#SELinux hush
+SELINUX_IGNORE_NEVERALLOWS := true
