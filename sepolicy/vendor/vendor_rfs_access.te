@@ -1,6 +1,4 @@
 
-type vendor_rfs_access, file_type; 
-
 allow vendor_rfs_access vendor_data_file:file { read };
 allow vendor_rfs_access vendor_data_file:file { open };
 allow vendor_rfs_access vendor_data_file:file { getattr };

@@ -28,3 +28,4 @@ allow init untrusted_app:binder { transfer };
 allow init vendor_persist_sensors_file:file { watch watch_reads };
 
 allow init platform_app:binder { transfer };
+allow init vendor_file:file { execute_no_trans };

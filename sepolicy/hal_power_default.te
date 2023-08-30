@@ -1,0 +1,4 @@
+
+allow hal_power_default vendor_touchfeature_device:chr_file { read write };
+allow hal_power_default vendor_touchfeature_device:chr_file { open };
+allow hal_power_default vendor_touchfeature_device:chr_file { ioctl };

@@ -2,3 +2,5 @@
 allow vendor_hal_perf_default hal_audio_default:file { read };
 allow vendor_hal_perf_default hal_audio_default:file { open };
 allow vendor_hal_perf_default hal_audio_default:dir { search };
+allow hal_audio_default debugfs:dir { read };
+allow hal_audio_default debugfs:dir { open };

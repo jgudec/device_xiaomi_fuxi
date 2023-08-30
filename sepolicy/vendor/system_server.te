@@ -1,0 +1,5 @@
+
+allow system_server sysfs:file { read };
+allow system_server sysfs:file { open };
+allow system_server sysfs:file { getattr };
+allow system_server sysfs:file { write };

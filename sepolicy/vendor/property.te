@@ -1,4 +1,2 @@
 # Thermal
 vendor_public_prop(vendor_thermal_normal_prop);
-
-type vendor_sysfs_battery_supply, property_type;
