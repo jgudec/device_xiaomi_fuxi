@@ -2,9 +2,13 @@ allow vendor_hal_perf_default init:file { read };
 allow vendor_hal_perf_default init:file { open };
 
 allow vendor_hal_perf_default init:dir { search };
-allow vendor_hal_perf_default hal_audio_default:file { read };
-allow vendor_hal_perf_default hal_audio_default:file { open };
-allow vendor_hal_perf_default hal_audio_default:dir { search };
+
 allow vendor_hal_perf_default hal_graphics_composer_default:dir { search };
 allow vendor_hal_perf_default hal_graphics_composer_default:file { read };
 allow vendor_hal_perf_default hal_graphics_composer_default:file { open };
+
+allow vendor_hal_perf_default vendor_shsusrd:dir { search };
+allow vendor_hal_perf_default vendor_shsusrd:file { read };
+allow vendor_hal_perf_default vendor_shsusrd:file { open };
+
+allow vendor_hal_perf_default thermal_data_file:dir { search };

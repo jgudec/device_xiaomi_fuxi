@@ -1,0 +1,10 @@
+
+allow tee mnt_vendor_file:dir { write };
+allow tee mnt_vendor_file:dir { remove_name };
+allow tee mnt_vendor_file:file { unlink };
+allow tee mnt_vendor_file:dir { add_name };
+allow tee mnt_vendor_file:file { create };
+allow tee mnt_vendor_file:file { write };
+
+allow tee mnt_vendor_file:file { read };
+allow tee mnt_vendor_file:file { open };
