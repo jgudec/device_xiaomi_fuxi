@@ -6,3 +6,6 @@ allow system_app vendor_hal_sensorcommunicate_default:binder call;
 allow system_app sysfs_zram:dir { search };
 get_prop(system_app, qemu_hw_prop)
 allow system_app sysfs_zram:file { read };
+
+# Battery Health
+r_dir_file(system_app, sysfs_battery_supply);
