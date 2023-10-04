@@ -1,0 +1,2 @@
+allow system_app sysfs_zram:dir { open search getattr };
+allow system_app sysfs_zram:file { open read getattr };
