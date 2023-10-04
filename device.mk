@@ -552,6 +552,5 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     vendor.lineage.powershare@1.0-service.xiaomi    
 
-# GcamGo
-PRODUCT_PACKAGES += \
-    GCamGOPrebuilt-V3_8    
+# MiuiCamera
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)

@@ -56,3 +56,8 @@ ro.hardware.wlan.vendor=qcom
 # LMK properties
 ro.lmk.kill_heaviest_task=true
 ro.lmk.kill_timeout_ms=50
+
+# Camera
+ro.miui.notch=1
+vendor.camera.aux.packagelist=org.lineageos.snap,com.android.camera
+persist.vendor.camera.privapp.list=com.android.camera
