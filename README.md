@@ -1,5 +1,8 @@
 #  Device Tree for Xiaomi 13 (fuxi)
 
+For MiuiCamera to work, the setup from this link is needed:
+https://gitlab.com/SonalSingh18/vendor_xiaomi_miuicamera
+
 ## Spec Sheet
 
 | Feature                 | Specification                                                              |
@@ -21,5 +24,5 @@
 
 ## Device Picture
 
-![Xiaomi 13](https://www.giztop.com/media/catalog/product/cache/dc206057cdd42d7e34b9d36e347785ca/p/m/pms_1670745529.40767182.png)
+![Xiaomi 13](https://i02.appmifile.com/521_operator_sg/08/02/2023/503cb266cda5de2f7c761228f3182737.png)
 
