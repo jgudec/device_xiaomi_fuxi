@@ -551,3 +551,7 @@ PRODUCT_BOOT_JARS += \
 # PowerShare
 PRODUCT_PACKAGES += \
     vendor.lineage.powershare@1.0-service.xiaomi    
+
+# GcamGo
+PRODUCT_PACKAGES += \
+    GCamGOPrebuilt-V3_8    
