@@ -8,15 +8,15 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit common EvoX configurations
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+# Inherit common PixelExperience configurations
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit device configurations
 $(call inherit-product, device/xiaomi/fuxi/device.mk)
 
 ## Device identifier
 PRODUCT_DEVICE := fuxi
-PRODUCT_NAME := evolution_fuxi
+PRODUCT_NAME := aosp_fuxi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := 2211133G
 PRODUCT_MANUFACTURER := Xiaomi
