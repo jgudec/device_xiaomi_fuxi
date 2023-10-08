@@ -447,6 +447,7 @@ PRODUCT_SOONG_NAMESPACES += \
 # Telephony
 PRODUCT_PACKAGES += \
     XiaomiEuicc \
+    FuxiLpaOverlay \
     extphonelib \
     extphonelib-product \
     extphonelib.xml \
