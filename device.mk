@@ -359,6 +359,8 @@ PRODUCT_PACKAGES += \
     FrameworksResTarget \
     FrameworksResTargetFuxi \
     SettingsResCommon \
+    SettingsOverlayChina \
+    SettingsOverlayGlobal \
     SystemUIResCommon \
     SystemUIResCommonFuxi \
     TelecommResCommon \
