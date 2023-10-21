@@ -161,3 +161,7 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     persist.log.tag.BufferQueueProducer=S \
     persist.log.tag.SurfaceControl=S \
     persist.log.tag.GraphicBuffer=S
+
+# Etar
+PRODUCT_PACKAGES += \
+    Etar
