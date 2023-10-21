@@ -348,7 +348,6 @@ PRODUCT_PACKAGES += \
     FrameworksResTargetXiaomi \
     SettingsOverlayChina \
     SettingsOverlayGlobal \
-    SettingsProviderOverlay \
     SettingsResCommonXiaomi \
     SystemUIResCommon \
     SystemUIResCommonFuxi \
