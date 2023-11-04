@@ -682,3 +682,7 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     persist.log.tag.BufferQueueProducer=S \
     persist.log.tag.SurfaceControl=S \
     persist.log.tag.GraphicBuffer=S
+
+# PixelLauncherExtended
+$(call inherit-product-if-exists, vendor/PixelLauncherExtended/PixelLauncher.mk)
+
