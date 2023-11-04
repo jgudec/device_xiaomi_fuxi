@@ -6,5 +6,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- ROM maintainer name -->
     <string name="build_maintainer_summary">Jeik</string>
-    <string name="build_maintainer_telegram">https://t.me/xiaomi13_dev_chat</string>
+    <string name="build_maintainer_donate_url">https://t.me/xiaomi13_dev_chat</string>
 </resources>
