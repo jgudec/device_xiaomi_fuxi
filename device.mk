@@ -686,3 +686,6 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
 # PixelLauncherExtended
 $(call inherit-product-if-exists, vendor/PixelLauncherExtended/PixelLauncher.mk)
 
+# Lineage Health
+PRODUCT_PACKAGES += \
+    vendor.lineage.health-service.default
