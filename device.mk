@@ -678,3 +678,7 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     persist.log.tag.BufferQueueProducer=S \
     persist.log.tag.SurfaceControl=S \
     persist.log.tag.GraphicBuffer=S
+
+# Lineage Health
+PRODUCT_PACKAGES += \
+    vendor.lineage.health-service.default
