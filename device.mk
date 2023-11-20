@@ -685,3 +685,6 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
 # Lineage Health
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
+
+# MIUI Camera
+$(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
