@@ -559,7 +559,7 @@ PRODUCT_PACKAGES += \
     vendor.lineage.powershare@1.0-service.xiaomi    
 
 # MiuiCamera
-$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
 
 # Log Spam shush
 PRODUCT_PROPERTY_OVERRIDES +=  \
