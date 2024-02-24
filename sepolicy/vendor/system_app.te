@@ -12,6 +12,9 @@ allow system_app vendor_sysfs_qcom_battery:dir search;
 allow system_app vendor_sysfs_usb_supply:file r_file_perms;
 allow system_app vendor_sysfs_usb_supply:dir r_dir_perms;
 
+# Battery Health
+r_dir_file(system_app, sysfs_battery_supply);
+
 # Camera
 allow system_app camlog_device:chr_file { getattr ioctl open read watch watch_reads write };
 allow system_app hal_camera_default:binder { call transfer };
