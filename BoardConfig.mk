@@ -239,7 +239,8 @@ DEVICE_MANIFEST_KALAMA_FILES := \
 
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(DEVICE_PATH)/configs/vintf/compatibility_matrix.device.xml \
-    $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xiaomi.xml
+    $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xiaomi.xml \
+    vendor/evolution/config/device_framework_matrix.xml
 
 # Vibrator
 SOONG_CONFIG_NAMESPACES += XIAOMI_VIBRATOR
@@ -265,3 +266,9 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 SOONG_CONFIG_NAMESPACES += XIAOMI_POWERSHARE
 SOONG_CONFIG_XIAOMI_POWERSHARE := WIRELESS_TX_ENABLE_PATH
 SOONG_CONFIG_XIAOMI_POWERSHARE_WIRELESS_TX_ENABLE_PATH := /sys/class/qcom-battery/reverse_chg_mode
+
+# Lineage Health
+TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/qcom-battery/input_suspend
+TARGET_HEALTH_CHARGING_CONTROL_CHARGING_ENABLED := 0
+TARGET_HEALTH_CHARGING_CONTROL_CHARGING_DISABLED := 1
+TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
