@@ -463,23 +463,20 @@
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
 
     <!-- The display uses different gamma curves for different refresh rates. It's hard for panel
-         vendors to tune the curves to have exact same brightness for different refresh rate. So
+         vendor to tune the curves to have exact same brightness for different refresh rate. So
          flicker could be observed at switch time. The issue is worse at the gamma lower end.
          In addition, human eyes are more sensitive to the flicker at darker environment.
          To prevent flicker, we only support higher refresh rates if the display brightness is above
-         a threshold.
+         a threshold. And the darker environment could have higher threshold.
          For example, no higher refresh rate if
-             display brightness <= disp0 && ambient brightness <= amb0
-             || display brightness <= disp1 && ambient brightness <= amb1 -->
+         display brightness <= disp0 && ambient brightness <= amb0
+         || display brightness <= disp1 && ambient brightness <= amb1
+    -->
     <integer-array name="config_brightnessThresholdsOfPeakRefreshRate">
-        <!-- System brightness for 10 nits: round((10-2)/(1000-2)*(255-1)+1) = 3 -->
-        <item>10</item> <!-- 33% UI brightness -->
-        <!-- System brightness for 15 nits: round((15-2)/(1000-2)*(255-1)+1) = 4 -->
-        <item>14</item> <!-- 40% UI brightness -->
+        <item>24</item> 
     </integer-array>
     <integer-array name="config_ambientThresholdsOfPeakRefreshRate">
-        <item>-1</item>
-        <item>20</item>
+        <item>30</item>
     </integer-array>
 
     <!-- Default refresh rate in the zone defined by brightness and ambient thresholds.
