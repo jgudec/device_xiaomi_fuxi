@@ -15,7 +15,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, device/xiaomi/fuxi/device.mk)
 
 # Inherit from Gapps
-$(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
+ifneq ($(NO_GMS),true)
+$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
+endif
 
 ## Device identifier
 PRODUCT_DEVICE := fuxi
